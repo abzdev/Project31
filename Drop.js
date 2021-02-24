@@ -14,7 +14,7 @@ class Drop {
         fill('blue');
         circle(this.x,this.y,this.r*2);
         if(frameCount%60 === 0) {
-            console.log(this.body.position.y);
+            //console.log(this.body.position.y);
         }
     }
 }
