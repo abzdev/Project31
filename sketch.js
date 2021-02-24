@@ -42,7 +42,6 @@ function draw() {
 
     if(frameCount%60 === 0) {
         drawThunder();
-
     }
     //circle(umbrella.position.x,umbrella.position.y,umbrellaRadius*2);
 }

@@ -13,8 +13,8 @@ class Drop {
     display() {
         fill('blue');
         circle(this.x,this.y,this.r*2);
-        if(frameCount%60 === 0) {
-            //console.log(this.body.position.y);
+        if(this.body.position.y>height) {
+            Body.setPosition(this.body,{x: this.body.position.x, y: 0});
         }
     }
 }
